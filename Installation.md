@@ -9,7 +9,3 @@
 	> Email: admin@test.com
 
 	> Password: cad2017!
-___
-[Go on to Support](support.md)
-
-[Go to release](../../)
