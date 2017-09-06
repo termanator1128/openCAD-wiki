@@ -1,0 +1,15 @@
+script:
+- |
+  git config user.name "phillf"
+  git config user.email "phill@creativetech.me"
+  git remote remove origin
+  git remote add origin https://$GITHUB_API_KEY@github.com/StormlightTech/openCAD-wiki.git > /dev/null 2>&1
+  git remote add upstream https://$GITHUB_API_KEY@github.com/StormlightTech/openCAD-php.wiki.git > /dev/null 2>&1
+  git fetch origin
+  git fetch upstream
+  git merge upstream/master --no-edit
+  git push origin HEAD:master > /dev/null 2>&1
+  git push upstream HEAD:master > /dev/null 2>&1
+env:
+  matrix:
+    secure: HWoAu7GtpCuFA1xasUKBCdaXEbQ5TFNF3/M8wfeKyNP8nOOhVF5aLoObeAUzTMTOzkK6B7TX483hAND1pkYSgmMvuEkvz4Qh84I5UWNrLfbsSWPbeTQfPBFHhCeyTciTQ2ZY1+JrG8IDqqxAaz1ubINsWdJUCFKMQcmS9cJEg7JgAHsS+NLlWvdoQ6N3xy4GFuhGfViuLkg9lRbIkIZFwCIDtdygzRedIfZaF7NvCjwfg3Chu6UUyzf2npt3Sx/Pg4BCbMzMEJPwGAsLBQYHJzYozlM6mw4ODW65RIMozqXtjbdMGmP/y4iN+ufVkdzio1MJ4SYSkNm2wMiVZvp4ZuZeVZ+2FSwsRYYL4STJlUuY7EKg/aIJ6K4PBINVstBQB+h/D1OdNPCw2XqwRL4Ky9Scs35E6eASOhjOpcm1O1TCkQMhuSCX4pwvS+0qfklMGG1NacHfXEHtc6WFgYhWtr+R6LGeFXeCJ+AlRFt+Reuff57zVJZibPA7MvGErU2Wsof2+R6YVpZ7yjvnLghypQadS/h1y76dl6Zkxo+04h9LjHdcm+oRdCGoelXpmMrqMujLDoBnwu2BA5AdyuzZQFRMYCaAP2rCi3dYsdLHMeib5MhF+nRiFwJ+RRXOYK7zMg0B/hfAwEG/new8MeP4AvmuQX7V4YQt8zpzs8ApRGQ=
