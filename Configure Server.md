@@ -24,7 +24,9 @@ __The openCAD dev team recommends Ubuntu 16.04 LTS__
 If you have gone through the steps and can answer "Yes" to the following statements then you have successfully prepared your environment for openCAD:
 
 1. I can access the default nginx test page.
-2. I can access phpMyAdmin.
+
+Go To: [Configure Web Server - nginx](Configure_Web_Server_-_nginx.md)
+Go To: [Configure Web Server - Apache](Configure_Web_Server_-_Apache)
 
 # Troubleshooting
 
