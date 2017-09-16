@@ -11,4 +11,6 @@
       * [Configure Web Server ‒ Caddy](Configure-Web-Server-‒-Caddy.md)
    4. [Install openCAD](Install-openCAD.md)
 5. [Permissions](Permissions.md)
-6. [Support](Support.md)
+6. [Code of Conduct](Code-of-Conduct.md)
+7. [Support](Support.md)
+8. [Credits](Credits.md)
