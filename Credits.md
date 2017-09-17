@@ -1,6 +1,6 @@
 # The Core OpenCAD Team
 
-* [Justin Harper](//github.com/itsageekthing) - Co-Revitalizer, Product Manager
+* [Justin Harper](//github.com/itsageekthing) - Co-Revitalizer, Project Manager
 * [Phill Fernandes](//github.com/phillf) - Co-Revitalizer, Developer
 * [Katherine Moss](//github.com/cambridgeport90) - Accessibility Manager, Developer
 * [Murtaza Curry](//github.com/murfasa) - Documentation Manager, Contributor
