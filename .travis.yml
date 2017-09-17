@@ -1,7 +1,7 @@
 script:
 - |
-  git config user.name "phillf"
-  git config user.email "phill@creativetech.me"
+  git config user.name "OpenCAD"
+  git config user.email "developers@opencad.io"
   git remote remove origin
   git remote add origin https://$GITHUB_API_KEY@github.com/StormlightTech/openCAD-wiki.git > /dev/null 2>&1
   git remote add upstream https://$GITHUB_API_KEY@github.com/StormlightTech/openCAD-php.wiki.git > /dev/null 2>&1
