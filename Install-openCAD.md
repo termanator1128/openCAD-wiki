@@ -8,3 +8,4 @@
 6. The default login information is:
 	> Email: admin@test.com
 	> Password: cad2017!
+7. Change the default login information.
