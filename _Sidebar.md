@@ -12,5 +12,6 @@
    4. [Install openCAD](Install-openCAD)
 5. [Permissions](Permissions)
 6. [Code of Conduct](Code-of-Conduct)
-7. [Support](Support)
-8. [Credits](Credits)
+7. [Contributing](Contributing)
+8. [Support](Support)
+9. [Credits](Credits)
