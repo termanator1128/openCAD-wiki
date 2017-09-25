@@ -2,7 +2,7 @@
 ---
 1. [Home](Home)
 2. [Prerequisite](Prerequisite)
-   1. [Recommended Hosting Providers](Recommended_Hosting_Provieders)
+   * [Recommended Hosting Providers](Recommended_Hosting_Provieders)
 3. [Installation](Installation)
    1. [Configure Server](Configure-Server)
    2. [Configure Database Server ‒ MySQL](Configure-Database-Server-‒-MySQL)
