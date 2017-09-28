@@ -8,7 +8,7 @@
 * **[Murfasa Curry](//keybase.io/murfasa)** — ***Documentation Manager, Contributor***
 * **Justin Farmer** — ***Test Engineer***
 **[Katherine Moss](//keybase.io/Cambridgeport90)** — ***Accessibility Manager, Contributor***
-* **[Brennan Stapleton](//keybase.io/termanator1128)** — ***Co-Revitalizer, Developer***
+* **[Brennen Stapleton](//keybase.io/termanator1128)** — ***Co-Revitalizer, Developer***
 
 ### Special Thanks To
 
