@@ -1,14 +1,14 @@
 # The Core OpenCAD Team
 
 ## Project Maintainers
-* **[Justin Harper](//github.com/itsageekthing)**  -  ***Co - Revitalizer, Project Manager***
-* **[Phill Fernandes](//github.com/phillf)**  -  ***Co - Revitalizer, Developer***
+* **[Justin Harper](//keybase.io/jrharper)**  -  ***Co-Revitalizer, Project Manager***
+* **[Phill Fernandes](//keybas.io/phillf)**  -  ***Co-Revitalizer, Developer*** [^footnote]
 
 ## Project Staff
 * **[Murfasa Curry](//keybase.io/murfasa)** - ***Documentation Manager, Contributor***
 * **Tyler C.** - ***Contributor***
 * **Justin Farmer** - ***Test Engineer***
-* **[Ramius1701](//keybase.io/ramius1701)** - ***Test Engineer*** 
+* **[Ramius1701](//keybase.io/ramius1701)** - ***Test Engineer***
 * **[Damien H.](://keybase.io/petromaya)** - ***Test Engineer, Contributor***
 * **[Katherine Moss](//keybase.io/Cambridgeport90)** - ***Accessibility Manager, Contributor***
 * **[Brennen Stapleton](//keybase.io/termanator1128)** - ***Co - Revitalizer, Developer***
