@@ -1,17 +1,17 @@
 language: generic
 script:
 - |
-  git config user.name "OpenCAD Project"
-  git config user.email "developers@opencad.io"
-  git remote remove origin
-  git remote remove upstream
-  git remote add origin https://$GITHUB_API_KEY@github.com/StormlightTech/openCAD-wiki.git > /dev/null 2>&1
-  git remote add upstream https://$GITHUB_API_KEY@github.com/StormlightTech/openCAD.wiki.git > /dev/null 2>&1
-  git fetch origin
-  git fetch upstream
-  git merge upstream/master --no-edit
-  git push origin HEAD:master > /dev/null 2>&1
-  git push upstream HEAD:master > /dev/null 2>&1
+- git config user.name "OpenCAD Project"
+- git config user.email "developers@opencad.io"
+- git remote remove origin
+- git remote remove upstream
+- git remote add origin https://$GITHUB_API_KEY@github.com/StormlightTech/openCAD-wiki.git > /dev/null 2>&1
+- git remote add upstream https://$GITHUB_API_KEY@github.com/StormlightTech/openCAD.wiki.git > /dev/null 2>&1
+- git fetch origin
+- git fetch upstream
+- git merge upstream/master --no-edit
+- git push origin HEAD:master > /dev/null 2>&1
+- git push upstream HEAD:master > /dev/null 2>&1
 env:
   matrix:
     secure: VFM/HJ2j5MTy0lB7pq1+bT6aUgBDl+E8zyKVb9Ac4vsXo9O7Y4DkI4xG0NM5f9a7hDfahtwTfJU52EBjBEpaMgdzHGhtXrqqQotjpJqIFgaLr86jVrQktt/Xua2hjpWs6QVba89wt8oeoshZiNyVf1G9JNuObYkvUkaPyCKX5qIaKIu5tl5aihwA3pEy4lxHHMSB5gP3EKQhkmp3B6cu3aX97Q34V4wza2r30v9TH4RNMZ//7c6+iuh6Y95Hn1u+ag0Fo+LKzBNeYMbvBdeb5F+F7fUHExYYWrYR/47wXGJaFguLJWlAkR9YHR7nWBdRFL/o+kSQirg8DSrVhN8Yxv8p2pojszzgaoI4PyfGSNalXUdgzeK6kxXXKXAkWkkq24ZzaNNOuLwZAtNI4ebWeBZEhP7uLhjEA2gVScwlUWaKDzkgAKKe+IZxHt9Fz2XR4G5xB5OERf/aWjEsagL5Y7Kwx3xWRIx+CukUBaer0qXFWZqUDYiT732aoUxN+l5bQE7k2N/YdfMyr7UOsicbGPEY7qOa3DoM5kowES/ih51EI0Ce0/vDVrvzynJHzW9pGl7UF5ds1jOgbA95doZYlo+Hh6F3vLLg7DsMkDYmo57xpTgR5kzWJVjEzwbaZkiT3SvomPH593AZcwA0LbJ2cvPsMYP55f8qdEOFMrN/KlA=
