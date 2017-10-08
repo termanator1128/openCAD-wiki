@@ -1,19 +1,14 @@
-language: generic
-sudo: false
-
 script:
 - |
-  git config user.name "Anthony Sharp"
-  git config user.email "atsharp@opencad.io"
+  git config user.name "OpenCAD Project"
+  git config user.email "developers@opencad.io"
   git remote remove origin
-  git remote add origin https://$GITHUB_API_KEY@github.com/StormlightTech/openCAD-wiki.git > /dev/null 2>&1
-  git remote add upstream https://$GITHUB_API_KEY@github.com/StormlightTech/openCAD-php.wiki.git > /dev/null 2>&1
+  git remote add origin https://$GITHUB_API_KEY@github.com/Tyriar/wiki-sync-example-wiki.git > /dev/null 2>&1
+  git remote add upstream https://$GITHUB_API_KEY@github.com/Tyriar/wiki-sync-example.wiki.git > /dev/null 2>&1
   git fetch origin
   git fetch upstream
   git merge upstream/master --no-edit
   git push origin HEAD:master > /dev/null 2>&1
-  git push upstream HEAD:master > /dev/null 2>&1
 env:
   matrix:
-  - secure: QBLBcYOlFz5XSmjR8q2chwnE5csjOBRrfQCzOvvCVc9v131aL/0mtltWktIRlzcUIJ8sgCwFgkbwvBOCtrVhedsqeDTmGr7wFDiEsPDtJ5BE1MwHjGbzxK4f9U85vw+GCl+pi846x9kEv0x4fLGYHbpzdp98BoE/unAu77UfMHzbz1aUNsWXE/epeWhFexLF/JG/JKjbY1+ih5mCNTw5Kr7+PidYXBE59TmlgyJ6fLurz6sNot7gSjv7WhcSehmery0vZSu0hifCOyVVqwma7SGTQcmsE9SxrLHAMkb9WMaSDpxn8Mx6O/4K/zjL1kLkV5f3yWwvXwzvwTZFddxE6tk7uu0y9Z5LQvz7WLFKBL0MCs5nIqpSz3cwmCHxfD8o7bJHtQ8XxZo2EmsBpvwNtS41DOxIR1RtMY4lU6PgZYQR6LG4QFIa+nAfOYRGmS6V9hVlZSjTN29RgT6Z0qkxI7aKRIV7jkJFsf/8wUB+uwrjf6shUe40pUG+jlToaOggT5bvOQhgz8RwmLZ2ic7NJ1OeEyMFP+0c+6guFVSgc9aMP8kgKCM2Xv+EX7rC4yyXOIpDh6xj7o0Av2BeTyHfcK2wyX+t9uKSs1yCaO2Wd7dJ6euMS5vJZW3DdFds3+Qoh+oFRsJkH3230rzZ0ZcCHVENH2u6b/DgoC+r/YvEIXE=
   - secure: dTj1RPABT0TLwNg1EQtX4h/FBoIs2/RnVyxHAonuXDgi0wwZm8pBO1/RMGoL4C/Z9TqFIBIFiEfMzMFDymyyiexqYmY6ereQGjXEDA+Pwe0ifv7l2w4smVs40hhBqPMmt6FJPywP9kAsc5/zezVUo0q2Yqq72RspA1io11NO2dGVGh2GlMu0MoM/R6xyfaXGURYG46gfoIdHrcf9BcGDVmMZWsV/SM/5qXe5joTHZnPZlLFFL0JycQLRSTwjfcHtDBez7VBoR/I//+jDDKsLh14b/ZeIB387OhlnfwVQCxuC49/3eWX5JYFI+7h0TgLejCCk5F49dPnXoT0d7X2t9OWwdx4Ex5kU96VN9FD3N5hvO59PPomNwUUUGESFny9cKnCVamOBil2zWzI6RVtrc1Gi52NwT2ySY7giehYl9BLbHHNIe+7xrXykDe5YRlEat0LzUvHph5AZU8mjcYjJAXP5ykJ7VPCHcUJbLlAcTxMiIdckNsv/Hfe74fKBdV3QF3W4LJLHCZHGUqhF8P6Dmo0rNpwKw6FsVyhlAXkX6sJJeYhoRLieXgT83aLzIVgrW0VA8zBQlf5vMW7SGdpufyHoKKqi00xJphZaE6cL0ZARW5qAamht0vd3yI3xbbnU4hoIaIkKX/GVrMQ4u0bAu3dXBrN36DJJlnP7l9njwSo=
