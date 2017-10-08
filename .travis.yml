@@ -1,3 +1,5 @@
+language: bash
+
  script:
 - |
   git config user.email "developers@opencad.io"
