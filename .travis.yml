@@ -1,7 +1,6 @@
 language: generic
-sudo: false
 
- script:
+script:
 - |
   git config user.email "developers@opencad.io"
   git remote remove origin
