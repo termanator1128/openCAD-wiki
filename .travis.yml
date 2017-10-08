@@ -1,4 +1,5 @@
 language: generic
+sudo: false
 
  script:
 - |
@@ -11,6 +12,7 @@ language: generic
   git fetch upstream
   git merge upstream/master --no-edit
   git push origin HEAD:master > /dev/null 2>&1
+  git push upstream HEAD:master > /dev/null 2>&1
 env:
   matrix:
   - secure: dTj1RPABT0TLwNg1EQtX4h/FBoIs2/RnVyxHAonuXDgi0wwZm8pBO1/RMGoL4C/Z9TqFIBIFiEfMzMFDymyyiexqYmY6ereQGjXEDA+Pwe0ifv7l2w4smVs40hhBqPMmt6FJPywP9kAsc5/zezVUo0q2Yqq72RspA1io11NO2dGVGh2GlMu0MoM/R6xyfaXGURYG46gfoIdHrcf9BcGDVmMZWsV/SM/5qXe5joTHZnPZlLFFL0JycQLRSTwjfcHtDBez7VBoR/I//+jDDKsLh14b/ZeIB387OhlnfwVQCxuC49/3eWX5JYFI+7h0TgLejCCk5F49dPnXoT0d7X2t9OWwdx4Ex5kU96VN9FD3N5hvO59PPomNwUUUGESFny9cKnCVamOBil2zWzI6RVtrc1Gi52NwT2ySY7giehYl9BLbHHNIe+7xrXykDe5YRlEat0LzUvHph5AZU8mjcYjJAXP5ykJ7VPCHcUJbLlAcTxMiIdckNs v/Hfe74fKBdV3QF3W4LJLHCZHGUqhF8P6Dmo0rNpwKw6FsVyhlAXkX6sJJeYhoRLieXgT83aLzIVgrW0VA8zBQlf5vMW7SGdpufyHoKKqi00xJphZaE6cL0ZARW5qAamht0vd3yI3xbbnU4hoIaIkKX/GVrMQ4u0bAu3dXBrN36DJJlnP7l9njwSo=
