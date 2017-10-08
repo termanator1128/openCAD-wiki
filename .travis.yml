@@ -4,7 +4,6 @@ script:
 - git config user.name "OpenCAD Project"
 - git config user.email "developers@opencad.io"
 - git remote remove origin
-- git remote remove upstream
 - git remote add origin https://$GITHUB_API_KEY@github.com/StormlightTech/openCAD-wiki.git > /dev/null 2>&1
 - git remote add upstream https://$GITHUB_API_KEY@github.com/StormlightTech/openCAD.wiki.git > /dev/null 2>&1
 - git fetch origin
