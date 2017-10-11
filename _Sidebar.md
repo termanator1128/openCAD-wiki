@@ -3,17 +3,17 @@
 1. [Home](Home)
 2. [Prerequisite](Prerequisite)
    * [Recommended Hosting Providers](Recommended_Hosting_Providers)
-3. Deployment Methods
-  * Self-Managed Deployment Method
-      1. [Configure Server](Configure-Server)
-      2. [Configure Database Server ‒ MySQL](Configure-Database-Server-‒-MySQL)
-      3. [Configure Web Server](Configure-Web-Server)
-        * [Configure Web Server ‒ nginx](Configure-Web-Server-‒-nginx)
-        * [Configure Web Server ‒ Apache](Configure-Web-Server-‒-Apache)
-        * [Configure Web Server ‒ Caddy](Configure-Web-Server-‒-Caddy)
-  * Shared Environment Deployment Methods
-      * [cPanel Shared Hosting](cPanel-Shared-Hosting)
-      * [Install OpenCAD](Install-OpenCAD)
+3. Deployment and Installation
+    * Self-Managed Deployment Method
+        1. [Configure Server](Configure-Server)
+        2. [Configure Database Server ‒ MySQL](Configure-Database-Server-‒-MySQL)
+        3. [Configure Web Server](Configure-Web-Server)
+            * [Configure Web Server ‒ nginx](Configure-Web-Server-‒-nginx)
+            * [Configure Web Server ‒ Apache](Configure-Web-Server-‒-Apache)
+            * [Configure Web Server ‒ Caddy](Configure-Web-Server-‒-Caddy)
+    * Shared Environment Deployment Methods
+          * [cPanel Shared Hosting](cPanel-Shared-Hosting)
+    * [Install OpenCAD](Install-OpenCAD)
 4. [Permissions](Permissions)
 5. [Code of Conduct](Code-of-Conduct)
 6. [Contributing](Contributing)
