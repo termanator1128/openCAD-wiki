@@ -1,3 +1,7 @@
 # Support
 ### Get Support
-If you need help, just [join the OpenCad community Discord](https://discord.gg/ufBBmaN) and just ask for help in the #community-support  text channel or vist us on our [official site](https://opencad.io/). We'll be happy to help you out!
+Need Help? [View our wiki](https://github.com/StormlightTech/OpenCAD-php/wiki) which has all the documentation you need.
+
+Still Having Trouble? We urge you to [raise a support ticket in our service desk](https://help.opencad.io).
+
+Did you find a security issue? Please raise a ticket in our [Security Center](https://security.opencad.io/).
