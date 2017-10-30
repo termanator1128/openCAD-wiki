@@ -1,3 +1,6 @@
+---
+title: Project Credits
+---
 # The Core OpenCAD Team
 
 ## Project Maintainers

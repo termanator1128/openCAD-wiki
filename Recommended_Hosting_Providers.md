@@ -1,3 +1,6 @@
+---
+title: Recommended Hosting Providers
+---
 # VPS
 | Host          | Price         | Specs                 |
 | ------------- |:-------------:| --------------------: |

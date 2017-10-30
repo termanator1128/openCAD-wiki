@@ -1,3 +1,6 @@
+---
+title: Support
+---
 # Support
 ### Get Support
 Need Help? [View our wiki](https://github.com/StormlightTech/OpenCAD-php/wiki) which has all the documentation you need.

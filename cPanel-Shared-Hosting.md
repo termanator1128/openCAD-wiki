@@ -1,3 +1,6 @@
+---
+title: cPanel Hosting
+---
 ## Prerequisite
 ### Requirements
 * cPanel

@@ -1,3 +1,6 @@
+---
+title: Configure Web Server
+---
 This section will details the configuration of the web server.
 
 * [Configure Web Server – nginx](Configure_Web_Server_–_nginx)

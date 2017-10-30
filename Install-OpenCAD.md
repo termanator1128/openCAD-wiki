@@ -1,4 +1,6 @@
-# Installation
+---
+title: Installing OpenCAD
+---
 ### Instructions
 1. Download the [zip file](https://github.com/StormlightTech/openCAD-php/archive/master.zip) and extract it to either the root of your website or the folder you want it in within the website. You are also able to clone the repository and move it to either the root of your website or a folder you want it within the website.
 2. Using phpMyAdmin or your favorite MySQL client, execute the openCad_Initialization.sql.

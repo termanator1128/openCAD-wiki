@@ -1,7 +1,7 @@
 ### Table of Contents
 ---
 1. [Home](Home)
-2. [Prerequisite](Prerequisite)
+2. [System Requirements](System_Requirements)
    * [Recommended Hosting Providers](Recommended_Hosting_Providers)
 3. Deployment and Installation
     * Self-Managed Deployment Method
