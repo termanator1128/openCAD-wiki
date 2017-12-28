@@ -13,6 +13,7 @@
             * [Configure Web Server ‒ Caddy](Configure-Web-Server-‒-Caddy)
     * Shared Environment Deployment Methods
           * [cPanel Shared Hosting](cPanel-Shared-Hosting)
+		  * [cPanel Video Guide] (cPanel-Video-Guide)
     * [Install OpenCAD](Install-OpenCAD)
 4. [Permissions](Permissions)
 5. [Code of Conduct](Code-of-Conduct)
